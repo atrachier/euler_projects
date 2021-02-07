@@ -1,8 +1,6 @@
 #!/bin/bash
 
-node ~/euler_projects/hello/basicServer.js &
-
-echo "taking a nap"
+timeout 10 node basicServer.js &
+echo "napping"
 sleep 2
 curl localhost:8081
-
