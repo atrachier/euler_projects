@@ -1,3 +1,3 @@
 // Console will print the message
-console.log('Sup Andy');
+console.log('sup andy');
 
