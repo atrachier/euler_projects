@@ -1,6 +1,6 @@
 #!/bin/bash
 
-node main.js &
+node main.js
 
-echo "expected output 3,6,9"
+echo "expected output: 3,6,9"
 
