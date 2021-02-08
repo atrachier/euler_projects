@@ -10,11 +10,11 @@ function countBy(x,y) {
   for (i = 0; i < y; i++ ) {
     n = sumNum(n,x);
     num.push(n);
-    num.forEach(ttl); 
-    function ttl(z) { 
-    n += z;
   }  
+  num.forEach(ttl); 
+  function ttl(z) { 
+  n += z;
     }
-    console.log(num);
+    console.log(n);
   }
 countBy(3,10)
