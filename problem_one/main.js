@@ -13,7 +13,7 @@ function countBy(x,y) {
   }  
   num.forEach(ttl); 
   function ttl(z) { 
-  n += z;
+   n += z;
     }
     console.log(n);
   }
