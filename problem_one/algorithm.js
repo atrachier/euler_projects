@@ -18,7 +18,7 @@ function countBy(x,y) {
     }
     console.log(n);
   }
-countBy(3,1000)
+countBy(3,10)
 
 // Problem 1 part B
 function bigNum (a,b) {
@@ -42,8 +42,8 @@ let m = 0;
     console.log(m);
   }
 
-increase(5,1000)
+increase(5,10)
 
 //Problem 1 part C
-
-  
+var all = num.concat(aim);
+console.log(all);
