@@ -4,11 +4,7 @@ function sumNum(x,y) {
 }
 // count by x three times
 function countBy(x) {
-  let n = sumNum(0,x)
-  console.log(n)
-  n = sumNum(n,x)
-  console.log(n)
-  n = sumNum(n,x)
-  console.log(n)
+  for (x= 0; x<10; x+3);
+  console.log(sumnum(x,0));
 }
 countBy(3)
