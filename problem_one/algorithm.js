@@ -19,3 +19,7 @@ function countBy(x,y) {
     console.log(n);
   }
 countBy(3,1000)
+// Problem 1 part B
+function bigNum (a,b) {
+  return a+b;
+}
