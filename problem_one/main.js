@@ -1,7 +1,7 @@
 //Problem 1//
-function sumnum(x,y) { x=0; y= x+3; return y;
-    
+function sumnum(x,y) { 
+  x = 0; 
+  y = x + 3; 
+  return y;
 }
-
-
-
+console.log(sumnum())
