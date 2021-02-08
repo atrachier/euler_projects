@@ -1,5 +1,5 @@
 #!/bin/bash
 
-node sumOfThrees.js
+node algorithm.js
 echo "expected output: 3,6,9"
 

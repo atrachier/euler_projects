@@ -1,4 +1,4 @@
-//Problem 1//
+//Problem 1 part A//
 function sumNum(x,y) { 
   return x+y;
 }
