@@ -1,5 +1,14 @@
 //Problem 1//
-function sumnum(x,y) { 
-    return x+y;
+function sumNum(x,y) { 
+  return x+y;
 }
-console.log(sumnum(0,3))
+// count by x three times
+function countBy(x) {
+  let n = sumNum(0,x)
+  console.log(n)
+  n = sumNum(n,x)
+  console.log(n)
+  n = sumNum(n,x)
+  console.log(n)
+}
+countBy(3)
