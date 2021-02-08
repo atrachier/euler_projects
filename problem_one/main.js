@@ -4,9 +4,9 @@ function sumNum(x,y) {
 }
 // count by x three times
 function countBy(x) {
-  let n;
+  let n = 0;
   for (i = 0; i < 3; i++ ) {
-    n = sumNum(0,x);
+    n = sumNum(n,x);
     console.log(n);
   }
 }
