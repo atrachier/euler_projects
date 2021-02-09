@@ -21,29 +21,28 @@ function countBy(x,y) {
 countBy(3,10)
 
 // Problem 1 part B
-function bigNum (a,b) {
-  return a+b;
+function bigNum (x,y) {
+  return x+y;
 }
 //array for 5
 var aim = [];
-//count by a, b times
-function increase(a,b) {
-let m = 0;
-  for (O = 0; O < b; O++) 
+//count by x, y times
+function increase(x,y) {
+let n = 0;
+  for (i = 0; i < y; i++) 
     {
-  m = bigNum(m,a)
-  aim.push(m)
+  n = bigNum(n,x)
+  aim.push(n)
   }
   aim.pop();
-  aim.forEach(sum); 
-  function sum(w) { 
-   m += w;
+  aim.forEach(sum);
+  function sum(z)  {
+   n += z;
     }
-    console.log(m);
+    console.log(n);
   }
 
 increase(5,10)
 
 //Problem 1 part C
 var all = num.concat(aim);
-console.log(all);
