@@ -2,8 +2,6 @@
 function sumNum(x,y) { 
   return x+y;
 }
-// array for 3
-var num = [];
 // count by x, y times 
 function countBy(x,y) { 
   let n = 0;
@@ -18,6 +16,7 @@ function countBy(x,y) {
     }
     console.log(n);
   }
+var num = [];
 countBy(3,10)
 countBy(5,10)
 
