@@ -8,16 +8,19 @@ function countBy(x,y) {
   for (i = 0; i < y; i++ ) {
     n = sumNum(n,x);
     num.push(n);
-  }  
+  }
+
   num.pop();
   num.forEach(ttl); 
+
   function ttl(z) { 
-   n += z;
-    }
-    console.log(n);
+    n += z;
   }
+
+  console.log(n);
+}
+
 var num = [];
 countBy(3,10)
 countBy(5,10)
 
-// Problem 1 part B
