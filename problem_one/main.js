@@ -1,7 +1,8 @@
-//Problem 1 part A
 function sumNum(x,y) { 
+  // food for thought: does this function need to exist?
   return x+y;
 }
+
 // count by x, y times 
 function countBy(x,y) { 
   let n = 0;
