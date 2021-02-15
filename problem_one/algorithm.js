@@ -1,12 +1,8 @@
 
-exports.sumNum = function (x,y) {
-  return x+y;
-};
-
 exports.countBy = function (x,y) { 
   let n = 0;
   for (i = 0; i < y; i++ ) {
-    n = exports.sumNum(n,x);
+    n = n+x;
     num.push(n);
   }
 }
