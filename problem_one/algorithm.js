@@ -1,8 +1,8 @@
 
-exports.countBy = function (x,y) { 
+exports.countBy = function (x,y,num) { 
   let n = 0;
   for (i = 0; i < y; i++ ) {
-    n = n+x;
+    n += x;
     num.push(n);
   }
 }
