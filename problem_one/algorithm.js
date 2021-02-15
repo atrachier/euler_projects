@@ -1,9 +1,9 @@
-//Problem 1 part A
-function sumNum(x,y) { 
+
+exports.sumNum = function (x,y) {
   return x+y;
-}
-// count by x, y times 
-function countBy(x,y) { 
+};
+
+exports.countBy = function (x,y) { 
   let n = 0;
   for (i = 0; i < y; i++ ) {
     n = sumNum(n,x);
@@ -11,16 +11,7 @@ function countBy(x,y) {
   }
 }
 
-var rdf = function(a,b) {
+exports.rdf = function(a,b) {
   return a+b;
 }
-
-var sum = num.reduce(rdf,0)
-
-console.log(sum);
-
-
-var num = [];
-countBy(3,10)
-countBy(5,10)
 

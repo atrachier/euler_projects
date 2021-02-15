@@ -1,27 +1,10 @@
-function sumNum(x,y) { 
-  // food for thought: does this function need to exist?
-  return x+y;
-}
+var a = require('./algorithm.js');
 
-// count by x, y times 
-function countBy(x,y) { 
-  let n = 0;
-  for (i = 0; i < y; i++ ) {
-    n = sumNum(n,x);
-    num.push(n);
-  }
 
-  num.pop();
-  num.forEach(ttl); 
-
-  function ttl(z) { 
-    n += z;
-  }
-
-  console.log(n);
-}
+console.log(sum);
 
 var num = [];
-countBy(3,10)
-countBy(5,10)
+var sum = num.reduce(a.rdf,0)
+a.countBy(3,10)
+a.countBy(5,10)
 
