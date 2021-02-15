@@ -10,14 +10,12 @@ function countBy(x,y) {
     num.push(n);
   }
 }
-  num.pop();
-  num.forEach(ttl); 
 
-  function ttl(z,n) { 
-    n += z;
-  }
+var sum = num.reduce(function(a,b) {
+    return a + b;
+},0)
 
-  console.log(n);
+console.log(sum);
 
 
 var num = [];
