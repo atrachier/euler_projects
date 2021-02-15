@@ -9,16 +9,16 @@ function countBy(x,y) {
     n = sumNum(n,x);
     num.push(n);
   }
-
+}
   num.pop();
   num.forEach(ttl); 
 
-  function ttl(z) { 
+  function ttl(z,n) { 
     n += z;
   }
 
   console.log(n);
-}
+
 
 var num = [];
 countBy(3,10)
