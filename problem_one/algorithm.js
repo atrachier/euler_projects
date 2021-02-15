@@ -11,9 +11,11 @@ function countBy(x,y) {
   }
 }
 
-var sum = num.reduce(function(a,b) {
-    return a + b;
-},0)
+var rdf = function(a,b) {
+  return a+b;
+}
+
+var sum = num.reduce(rdf,0)
 
 console.log(sum);
 
