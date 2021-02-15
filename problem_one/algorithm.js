@@ -6,7 +6,7 @@ exports.sumNum = function (x,y) {
 exports.countBy = function (x,y) { 
   let n = 0;
   for (i = 0; i < y; i++ ) {
-    n = sumNum(n,x);
+    n = exports.sumNum(n,x);
     num.push(n);
   }
 }
