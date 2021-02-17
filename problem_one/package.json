@@ -1,0 +1,32 @@
+{
+  "name": "problem_one",
+  "version": "1.0.0",
+  "description": "euler problem one",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint": "^7.20.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  },
+  "scripts": {
+    "test": "./test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/atrachier/euler_projects.git"
+  },
+  "keywords": [
+    "euler"
+  ],
+  "author": "Andy Trachier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atrachier/euler_projects/issues"
+  },
+  "homepage": "https://github.com/atrachier/euler_projects#readme"
+}
