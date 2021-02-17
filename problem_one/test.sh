@@ -1,5 +1,4 @@
 #!/bin/bash
 
-node main.js
-echo ""
-
+A=$(node main.js)
+if [ "$A" = "440" ]; then echo "Pass"; else echo "Fail"; fi
