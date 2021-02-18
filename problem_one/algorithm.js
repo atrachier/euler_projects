@@ -1,17 +1,12 @@
 
-exports.countBy = (x, z, y) => {
+exports.countBy = function (x, n) {
   const num = []
-  let o = 0
-  let n = 0
-  for (let i = 0; i < y; i++) {
-    n += x
-    o += z
-    if (!num.includes(n)) {
+  let x = 0
+  for (let i = 0; i < x; i++) {
+    x == n
+    if (i % x == 0.0) {
       num.push(n)
     }
-    if (!num.includes(o)) {
-      num.push(o)
-    }
+    
   }
-  return num
 }
