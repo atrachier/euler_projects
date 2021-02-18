@@ -1,11 +1,10 @@
 
 exports.countBy = function (x, n) {
   const num = []
-  let x = 0
-  for (let i = 0; i < x; i++) {
-    x == n
+  for (let i = 0; i < n; i++) {
+    
     if (i % x == 0.0) {
-      num.push(n)
+      num.push(i)
     }
     
   }
