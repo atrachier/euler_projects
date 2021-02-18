@@ -6,7 +6,3 @@ exports.countBy = function (x, y, num) {
     num.push(n)
   }
 }
-
-exports.rdf = function (a, b) {
-  return a + b
-}
