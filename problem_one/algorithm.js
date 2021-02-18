@@ -6,6 +6,7 @@ exports.countBy = function (x, n) {
     if (i % x == 0.0) {
       num.push(i)
     }
-    return num
+    
   }
+  return num
 }
