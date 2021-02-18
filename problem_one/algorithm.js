@@ -1,6 +1,6 @@
 
 exports.countBy = (x, y) => {
-  let num = []
+  const num = []
   let n = 0
   for (let i = 0; i < y; i++) {
     n += x
