@@ -1,5 +1,6 @@
-let num = []
-exports.countBy = function (x, y) {
+
+exports.countBy = (x, y) => {
+  let num = []
   let n = 0
   for (let i = 0; i < y; i++) {
     n += x
