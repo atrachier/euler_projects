@@ -6,6 +6,9 @@ exports.countBy = (x,z,y) => {
   for (let i = 0; i < y; i++) {
     n += x
     o += z
+    if (!num.includes(n)) {
+      !num.push(o)
+    }
     num.push(n)
     num.push(o)
   }
