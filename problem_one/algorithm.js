@@ -9,6 +9,9 @@ exports.countBy = (x,z,y) => {
     if (! num.includes(n)) {
       num.push(n)
     }
+    if (num.includes(o)) {
+      ! num.push(o)
+    }
     num.push(o)
   }
   return num
